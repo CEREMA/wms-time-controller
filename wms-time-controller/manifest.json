@@ -1,0 +1,25 @@
+{
+  "name": "wms-time-controller",
+  "type": "widget",
+  "version": "1.19.0",
+  "exbVersion": "1.19.0",
+  "author": "Your Name",
+  "description": "Controls the TIME parameter of an OGC WMS layer",
+  "copyright": "",
+  "license": "",
+  "dependency": [
+    "jimu-arcgis"
+  ],
+  "properties": {
+    "hasConfig": true,
+    "hasSettingPage": true,
+    "hasTitle": false
+  },
+  "translatedLocales": [
+    "en"
+  ],
+  "defaultSize": {
+    "width": 350,
+    "height": 220
+  }
+}

@@ -1,0 +1,12 @@
+<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Bordered background -->
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M0 2C0 0.895431 0.895431 0 2 0H18C19.1046 0 20 0.895431 20 2V18C20 19.1046 19.1046 20 18 20H2C0.895431 20 0 19.1046 0 18V2ZM2 1H18C18.5523 1 19 1.44772 19 2V18C19 18.5523 18.5523 19 18 19H2C1.44772 19 1 18.5523 1 18V2C1 1.44772 1.44772 1 2 1Z" fill="black"/>
+  <!-- Clock circle -->
+  <circle cx="10" cy="10" r="6.5" stroke="white" stroke-width="1" fill="none"/>
+  <!-- Clock center dot -->
+  <circle cx="10" cy="10" r="0.8" fill="black"/>
+  <!-- Hour hand (pointing up) -->
+  <line x1="10" y1="10" x2="10" y2="5.5" stroke="white" stroke-width="1.2" stroke-linecap="round"/>
+  <!-- Minute hand (pointing right) -->
+  <line x1="10" y1="10" x2="13.5" y2="11.5" stroke="white" stroke-width="1.2" stroke-linecap="round"/>
+</svg>
