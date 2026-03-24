@@ -4,7 +4,7 @@
   "version": "1.14.0",
   "exbVersion": "1.14.0",
   "author": "Sandrine Balley",
-  "description": "Controls the TIME parameter of an OGC WMS layer",
+  "description": "Un curseur qui controle le paramètre TIME des couches WMS de la carte",
   "copyright": "",
   "license": "",
   "dependency": [
