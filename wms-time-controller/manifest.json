@@ -1,9 +1,9 @@
 {
   "name": "wms-time-controller",
   "type": "widget",
-  "version": "1.19.0",
-  "exbVersion": "1.19.0",
-  "author": "Your Name",
+  "version": "1.14.0",
+  "exbVersion": "1.14.0",
+  "author": "Sandrine Balley",
   "description": "Controls the TIME parameter of an OGC WMS layer",
   "copyright": "",
   "license": "",
