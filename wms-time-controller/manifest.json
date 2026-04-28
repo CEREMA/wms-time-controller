@@ -20,6 +20,10 @@
     "hasSettingPage": true,
     "hasTitle": true
   },
+  "translatedLocales": [
+    "en",
+    "fr"
+  ]
   "defaultSize": {
     "width": 350,
     "height": 220
