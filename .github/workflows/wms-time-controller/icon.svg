@@ -1,12 +1,27 @@
-<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <!-- Bordered background -->
-  <path fill-rule="evenodd" clip-rule="evenodd" d="M0 2C0 0.895431 0.895431 0 2 0H18C19.1046 0 20 0.895431 20 2V18C20 19.1046 19.1046 20 18 20H2C0.895431 20 0 19.1046 0 18V2ZM2 1H18C18.5523 1 19 1.44772 19 2V18C19 18.5523 18.5523 19 18 19H2C1.44772 19 1 18.5523 1 18V2C1 1.44772 1.44772 1 2 1Z" fill="black"/>
-  <!-- Clock circle -->
-  <circle cx="10" cy="10" r="6.5" stroke="white" stroke-width="1" fill="none"/>
-  <!-- Clock center dot -->
-  <circle cx="10" cy="10" r="0.8" fill="black"/>
-  <!-- Hour hand (pointing up) -->
-  <line x1="10" y1="10" x2="10" y2="5.5" stroke="white" stroke-width="1.2" stroke-linecap="round"/>
-  <!-- Minute hand (pointing right) -->
-  <line x1="10" y1="10" x2="13.5" y2="11.5" stroke="white" stroke-width="1.2" stroke-linecap="round"/>
+<svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+  <!-- Montre -->
+  <circle cx="10" cy="5.4" r="4.5" fill="none" stroke="#ffffff" stroke-width="1"/>
+
+  <!-- Aiguille des minutes -->
+  <line x1="10" y1="5.4" x2="10" y2="1.2" stroke="#ffffff" stroke-width="1" stroke-linecap="round"/>
+
+  <!-- Aiguille des heures (courte, vers 4h) -->
+  <line x1="10" y1="5.4" x2="11.9" y2="7" stroke="#ffffff" stroke-width="1" stroke-linecap="round"/>
+
+  <!-- Curseur horizontal -->
+  <!-- rail -->
+  <line x1="0.5" y1="16.5" x2="19.5" y2="16.5"
+        stroke="#ffffff" stroke-width="1" stroke-linecap="round"/>
+
+  <!-- ticks -->
+  <line x1="2.5" y1="15.8" x2="2.5" y2="17.2" stroke="#ffffff" stroke-width="1" stroke-linecap="round"/>
+  <line x1="6.5" y1="15.8" x2="6.5" y2="17.2" stroke="#ffffff" stroke-width="1" stroke-linecap="round"/>
+  <line x1="10" y1="15.8" x2="10" y2="17.2" stroke="#ffffff" stroke-width="1" stroke-linecap="round"/>
+  <line x1="13.5" y1="15.8" x2="13.5" y2="17.2" stroke="#ffffff" stroke-width="1" stroke-linecap="round"/>
+  <line x1="17.5" y1="15.8" x2="17.5" y2="17.2" stroke="#ffffff" stroke-width="1" stroke-linecap="round"/>
+
+  <!-- curseur (plus étiré vers le bas) -->
+  <path d="M13.6 17.4 L13.6 15.6 L14.5 14.5 L15.4 15.6 L15.4 17.4 Z"
+        fill="#ffffff" stroke="#ffffff" stroke-width="1"
+        stroke-linejoin="round"/>
 </svg>
