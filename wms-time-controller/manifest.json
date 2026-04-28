@@ -3,7 +3,6 @@
   "label": {
     "default": "Curseur temporel WMS"
   },
-  "hasTitle": true,
   "type": "widget",
   "version": "1.14.0",
   "exbVersion": "1.14.0",
@@ -17,7 +16,7 @@
   "properties": {
     "hasConfig": true,
     "hasSettingPage": true,
-    "hasTitle": false
+    "hasTitle": true
   },
   "translatedLocales": [
     "en"
