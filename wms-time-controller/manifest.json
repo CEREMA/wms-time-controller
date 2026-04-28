@@ -1,8 +1,10 @@
 {
   "name": "wms-time-controller",
   "label": {
-    "default": "Curseur temporel WMS"
-  },
+    "default": "Curseur temporel WMS",
+    "en": "WMS Time Slider",
+    "fr": "Curseur temporel WMS"
+  }
   "type": "widget",
   "version": "1.14.0",
   "exbVersion": "1.14.0",
